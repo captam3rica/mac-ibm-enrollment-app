@@ -114,7 +114,7 @@ class PrimaryRegistrationChildViewController: NSViewController {
     */
     private func validatePopUpBoxChoice(aPopupChoice: String, key: String, popup: NSPopUpButton!, returnCodes: [String], percentageCompleteIndex: Int) {
         if let aPopupChoice = UserDefaults.standard.string(forKey: key) {
-            popup.selectItem(at: (returnCodes.index(of: aPopupChoice))!)
+            popup.selectItem(at: (returnCodes.firstIndex(of: aPopupChoice))!)
             if UserDefaults.standard.string(forKey: key) != nil && UserDefaults.standard.string(forKey: key) != "" { self.percentageOfCompletion[percentageCompleteIndex] = 1}
         }
     }
