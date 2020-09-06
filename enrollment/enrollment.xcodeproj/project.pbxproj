@@ -573,12 +573,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					69A1F5AF2102269B004F461A = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1160;
+						LastSwiftMigration = 1000;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
 								enabled = 0;
@@ -596,11 +596,10 @@
 					};
 					69A1F5D121022FC2004F461A = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1160;
+						LastSwiftMigration = 1000;
 					};
 					69B411E8216FA214005B6332 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -814,7 +813,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -869,7 +868,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
@@ -887,16 +886,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = enrollment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.enrollment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.enrollment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -909,16 +907,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = enrollment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.enrollment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.enrollment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -930,18 +927,17 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EnrollmentLoginHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.EnrollmentLoginHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.EnrollmentLoginHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -953,18 +949,17 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EnrollmentLoginHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.EnrollmentLoginHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.EnrollmentLoginHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -974,7 +969,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/JAMFIntegrationHelper/JAMFIntegrationHelper-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -989,10 +983,10 @@
 					__launchd_plist,
 					"\"$(SRCROOT)/JAMFIntegrationHelper/JAMFIntegrationHelper-Launchd.plist\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.jamf.IntegrationHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.jamf.IntegrationHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1002,7 +996,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N4JUZ4Z6U;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/JAMFIntegrationHelper/JAMFIntegrationHelper-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_FAST_MATH = YES;
@@ -1016,10 +1009,10 @@
 					__launchd_plist,
 					"\"$(SRCROOT)/JAMFIntegrationHelper/JAMFIntegrationHelper-Launchd.plist\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.captam3rica.jamf.IntegrationHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.jamf.IntegrationHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
